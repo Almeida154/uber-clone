@@ -1,8 +1,8 @@
 export default {
+  splashTitle: 92,
   bigger: 24,
-  big: 16,
+  big: 18,
   regular: 14,
   small: 12,
   smaller: 11,
-  splashTitle: 92
 };

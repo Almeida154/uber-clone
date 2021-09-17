@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { StatusBar } from 'react-native';
-import { Container, Title } from './styles';
-import { colors } from '../../styles';
+import { Container } from './styles';
+
+import Map from '../../components/Map';
 
 export default function index() {
     return (
         <Container>
-            <StatusBar backgroundColor={colors.white} />
-            <Title>Home</Title>
+            <StatusBar translucent backgroundColor='transparent' />
+            <Map />
         </Container>
     );
 }

@@ -14,7 +14,8 @@ export default function index({ onLocationSelected }) {
         onFail={error => console.error(error)}
         query={{
             key: Config.API_KEY,
-            language: 'pt'
+            language: 'pt',
+            components: 'country:br'
         }}
         textInputProps={{
             autoCapitalize: 'none',
@@ -43,7 +44,7 @@ export default function index({ onLocationSelected }) {
             textInput: {
                 height: 54,
                 margin: 0,
-                borderRadius: 0,
+                borderRadius: 10,
                 paddingLeft: 20,
                 paddingRight: 20,
                 paddingTop: 0,
